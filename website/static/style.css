@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #333;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  text-decoration: none;
+}
+
+.content {
+  padding: 20px;
+}
+
+/* Form */
+h3 {
+  text-align: center; /* Align h3 text in the center */
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Alert container */
+.alert-container {
+  position: relative;
+}
+
+/* Alert styles */
+.alert {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  visibility: hidden; /* Hide alerts by default */
+}
+
+/* Show alerts when they have the 'show' class */
+.alert.show {
+  visibility: visible;
+}
+
+/* Error alert */
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+/* Success alert */
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+/* Close button */
+.close {
+  float: right;
+  font-size: 1.25rem;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+  background-color: transparent;
+  border: 0;
+}
+
+.close:hover {
+  color: #000;
+  text-decoration: none;
+  opacity: .75;
+}
+
+.close:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+/* Center all content */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+/* Footer Contribute Section */
+.contribute-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contribute-section .github-icon {
+  vertical-align: middle;
+  width: 24px; /* Adjust the size of the GitHub icon */
+  height: auto;
+}
